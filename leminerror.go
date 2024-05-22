@@ -8,7 +8,6 @@ func IsFileTypeCorrect(givenFileName string) bool {
 	extension := path.Ext(givenFileName)
 	return extension == ".txt"
 }
-
 func CleanTheComments(seperatedContent []string) []string {
 	var res []string
 	for i := 0; i < len(seperatedContent); i++ {
