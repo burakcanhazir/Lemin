@@ -413,7 +413,6 @@ func main() {
 		fmt.Println(err)
 		return
 	}
-
 	paths := graph.FindNonOverlappingPaths(antCount)
 	if len(paths) == 0 {
 		fmt.Println("ERROR: invalid data format, no path between ##start and ##end")
